@@ -10,4 +10,22 @@ body {
     align-items: center;
     height: 100vh;
     background-color: #347812 !important;
+   
+}
+
+.question-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid rgba(0, 0, 0, 0.4);
+    padding: 12px;
+}
+
+.quizcard {
+width: 30rem;
+}
+
+.quiz-answer-card:hover {
+cursor: pointer;
+background-color: rgba(0, 0, 0, 0.05);
 }
