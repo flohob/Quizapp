@@ -15,17 +15,34 @@
 </head>
 
 <body onload="init()">
+
+  <div class="content">
     <nav class="navbar bg-body-tertiary">
         <div class="container-fluid">
-          <span class="navbar-brand mb-0 h1">Navbar</span>
+          <img src="Group 8.png" alt="">
+          <span class="navbar-brand mb-0 h1">Quiz 1</span>
+          <span class="navbar-brand mb-0 h1">Quiz 2</span>
+          <span class="navbar-brand mb-0 h1">Kontakt</span>
         </div>
       </nav>
 
-      <div class="container-quizz">
+      <div class="container-quizz" id="endscreen" style="display: none;">
+      <div class="card">
+        <div class="card-body">
+          <img class="card-img-top" src="cup-gf648f3bc6_640.png" alt="Card image cap">
+          <h5 class="card-title">Geschafft</h5>
+          Du hast <b id="endscreen-qu1"></b> Fragen von <b id="endscreen-qu"></b> richtig beantwortet!
+      </div>
+          <a href="#" onclick="restartgame()" class="btn btn-primary">Nochmal spielen ---></a>
+        </div>
+      </div>
+      
+
+      <div class="container-quizz" id="cardbody">
         <div class="quizcard">
       <div class="card">
-        <img src="leaf-ge3eae48fa_640.jpg" class="card-img-top" alt="...">
         <div class="card-body">
+          <img src="leaf-ge3eae48fa_640.jpg" class="card-img-top" alt="...">
           <h5 class="card-title" id="questiontext">Frage</h5>
           
           <div class="card mb-2 quiz-answer-card" onclick="answer('answer_1')">
@@ -55,9 +72,13 @@
             </span>
             <button onclick="nextQuestion()" id="enable-btn" disabled type="button" class="btn btn-success">Nächste Frage</button>
           </div>
+          <div class="progress">
+            <div class="progress-bar" id="progress-bar" role="progressbar" style="width: 0%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+          </div>
 
         </div>
         </div>
+      </div>
       </div>
       </div>
 

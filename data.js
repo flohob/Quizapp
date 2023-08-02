@@ -25,10 +25,10 @@ let questions = [
     },
     {
         "question": "Was ist ein GUI?",
-        "answer_1": "Graphical User Interface (grafische BenutzeroberflÃ¤che)",
-        "answer_2": "Generic Unix Interface (Unix-Standardsystemschnittstelle)",
-        "answer_3": "Globally Unique Identity (weltweit einmalige Registriernummer)",
-        "answer_4": "Gate Undefined Issue (SicherheitslÃ¼cke in Betriebssystemen)",
+        "answer_1": "Graphical User Interface",
+        "answer_2": "Generic Unix Interface",
+        "answer_3": "Globally Unique Identity",
+        "answer_4": "Gate Undefined Issue",
         "right_answer": 1
     },
     {
