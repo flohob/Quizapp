@@ -77,5 +77,35 @@ height: 150px;
     }
 
     .navbar {
-        background-color: gray;
+        background-color:lightgrey;
+        color:white;
+    }
+
+    .mb-20 {
+        margin-bottom: 20px;
+    }
+
+    .startbtn:hover {
+        transform: scale(1.2); 
+        transition: transform 0.3s ease; 
+        cursor: pointer;
+    }
+
+
+    @media (max-width:700px) {
+        .quizcard {
+            width: 21rem;
+        }
+        nav {
+            display: none !important;
+        }
+        .card-body {
+            width: 17rem;
+        }
+        .card-img-top {
+            height: 8rem;
+        }
+        .card {
+            height: 33rem;
+        }
     }

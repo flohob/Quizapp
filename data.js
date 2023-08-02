@@ -8,15 +8,15 @@ let questions = [
         "right_answer": 2
     },
     {
-        "question": "Wie heiÃŸt das Protokoll, das fÃ¼r die WWW-Kommunikation verwendet wird?",
-        "answer_1": "LWP",
-        "answer_2": "WWWP",
-        "answer_3": "HTTP",
-        "answer_4": "HTML",
-        "right_answer": 3
+        "question": "Was versteht man unter Hypertrophie?",
+        "answer_1": "Muskelaufbau",
+        "answer_2": "Fettverbrennung",
+        "answer_3": "Herz-Kreislauf",
+        "answer_4": "eine Verletzung",
+        "right_answer": 1
     },
     {
-        "question": "Welchen Sicherheitsstandard fÃ¼r WLAN sollte man mindestens verwenden?",
+        "question": "Welchen Sicherheitsstandard für WLAN sollte man mindestens verwenden?",
         "answer_1": "WEP",
         "answer_2": "WPA2",
         "answer_3": "WPA1",
@@ -32,7 +32,7 @@ let questions = [
         "right_answer": 1
     },
     {
-        "question": "Welches Tag gibt die HauptÃ¼berschrift eines HTML-Dokuments an?",
+        "question": "Welches Tag gibt die Hauptüberschrift eines HTML-Dokuments an?",
         "answer_1": "htop",
         "answer_2": "head",
         "answer_3": "mainhead",

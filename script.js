@@ -66,3 +66,8 @@ function resetAnswerButtons() {
 function restartgame() {
     location.reload();
 }
+
+function showstartquestion() {
+    document.getElementById('cardbody').style = '';
+    document.getElementById('start-screen').style = 'display:none;';
+}
