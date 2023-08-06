@@ -17,7 +17,7 @@ let questions = [
     },
     {
         "question": "Wer oder Was ist eine Mimose?",
-        "answer_1": "Eine Hauptkrankheit",
+        "answer_1": "Eine Hautkrankheit",
         "answer_2": "Eine tropische Pflanze",
         "answer_3": "eine Hunderasse",
         "answer_4": "ein Südseefisch",
@@ -27,7 +27,7 @@ let questions = [
         "question": "Welches Tier rennt am schnellsten?",
         "answer_1": "Eine Schnecke",
         "answer_2": "Gepard",
-        "answer_3": "Garzelle",
+        "answer_3": "Gazelle",
         "answer_4": "Feldhase",
         "right_answer": 2
     },
